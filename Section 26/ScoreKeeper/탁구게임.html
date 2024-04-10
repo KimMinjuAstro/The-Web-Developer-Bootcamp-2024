@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .winner {
+            color: green;
+        }
+
+        .loser {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>탁구 점수 기록</h1>
+    <section>
+        <h2><span id="p1Score">0</span> to <span id="p2Score">0</span></h2>
+        <div>아래의 버튼을 이용해 점수를 기록해보세요.</div>
+        <select name="최종점수" id="최종점수">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <footer>
+            <button id="p1Button">플레이어1 점수 추가</button>
+            <button id="p2Button">플레이어2 점수 추가</button>
+            <button id="reset">리셋</button>
+        </footer>
+    </section>
+
+    <script src="탁구게임.js"></script>
+</body>
+
+</html>
