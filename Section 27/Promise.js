@@ -56,11 +56,11 @@ const sing = async () => {
 
 const login = async (username, password) => {
     if (!username || !password) throw '필수 항목을 채워주세요'
-    if (password === '붉은 시선') return '어서와, 베르길리우스.'
+    if (password === '190630') return '호두나무.'
     throw '비밀번호를 다시 입력해주십시오.'
 }
 
-login('V', '베르길리우스')
+login('V', 'VD')
     .then(msg => {
         console.log('로그인 되었습니다.');
         console.log(msg);
